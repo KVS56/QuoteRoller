@@ -1,9 +1,40 @@
 <html>
 <head>
-<title>Quote Roller</title>
+<title>QuoteRoller</title>
 </head>
+<script type = "text/javascript">
+
+    function sampleFunction() {
+    
+          var myArray = [
+          "This is a quote, apparently. -KVS",
+          "I hate sand. - Anakin Skywalker",
+          "As the great Sun Tzu once said, the supreme art of war lies in defeating the enmy without facing him. -MudFlaps", 
+          "He travels the fastest who travels alone.- Rudyard Kipling",
+          "I think therefore I am. - René Descartes",
+          "Knowledge is power. -Francis Bacon",
+          "Not all those who wander are lost. - J.R.R. Tolkien",
+          "Not all those who wander are lost. - J.R.R. Tolkien",
+          "Nothing is certain except for death and taxes. -Benjamin Franklin",
+          "Nothing is certain except for death and taxes. -Benjamin Franklin",
+          "What doesn't kill us makes us stronger. -Friedrich Nietzche",
+          "United we stand, divided we fall. -Aesop",
+          "Two roads diverged in a wood, and I, I took the one less travelled by, and that has made all the difference. -Robert Frost",
+          "Violence is never the answer. It is a question, and the answer is YES! -KVS",
+          "Speak softly and carry a big stick -Theodore Roosevelt",
+          "That is one small step for a man, a giant leap for mankind. -Neil Armstrong",
+          "I'm gonna make him an offer he can't refuse. -Vito Corleone",
+          ];
+  
+          var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+
+          alert(randomItem);
+         }
+    
+    </script>
 <body>
 Just do everyone a favor and click the button!<br>
-<button onclick= fun()>Roll a quote!</button>   
+<input type = "button" onclick = "sampleFunction()" value = "Roll a quote!"> 
+</script>
 </body>
 </html>
