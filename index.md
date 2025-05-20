@@ -1,7 +1,11 @@
-<html>
-<head>
-<title>QuoteRoller</title>
-</head>
+---
+title: QuoteRoller
+feature_text: |
+  ## QuoteRoller
+  A website that literally just rolls random quotes at a button press
+feature_image: "feat.jpeg"
+---
+
 <style>
 h1{font-size: 5em;
 font-family: 'Times New Roman';
@@ -61,6 +65,3 @@ background-color: darkgoldenrod;
 © Vishal Sharma<br>
 Working contract to KVS Technologies<br>
 Created by Krishna Vaibhav Sharma and Aishwarya Sharma<br>
-</script>
-</body>
-</html>
