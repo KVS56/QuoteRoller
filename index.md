@@ -6,17 +6,6 @@ feature_text: |
 feature_image: "feat.jpeg"
 ---
 
-<style>
-h1{font-size: 5em;
-font-family: 'Times New Roman';
-}
-button{
-    font-size: 3em;
-}
-body{
-background-color: darkgoldenrod;
-}
-</style>
 <script type = "text/javascript">
 
     function zeFunction() {
