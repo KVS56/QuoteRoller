@@ -1,9 +1,5 @@
 ---
-title: QuoteRoller
-feature_text: |
-  ## QuoteRoller
-  A website that literally just rolls random quotes at a button press
-feature_image: "feat.jpeg"
+layout: default
 ---
 
 <script type = "text/javascript">
@@ -51,6 +47,4 @@ feature_image: "feat.jpeg"
 <h1>Click the button in order to roll a random quote!</h1><br>
 <button onclick="zeFunction()">Roll a quote!</button>
 <br>
-© Vishal Sharma<br>
-Working contract to KVS Technologies<br>
-Created by Krishna Vaibhav Sharma and Aishwarya Sharma<br>
+<footer>Dedicated to my father.</footer>
