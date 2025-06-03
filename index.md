@@ -36,7 +36,7 @@ layout: default
           ];
   
           var randomIteem = myArray[Math.floor(Math.random()*myArray.length)];
-          document.getElementById("randomIteem").innerHTML = randomIteem
+          document.getElementById("randomIteem").innerHTML =randomIteem
          }
     
     </script>
@@ -44,4 +44,4 @@ layout: default
 
 <button onclick="zeFunction()">Roll a quote!</button>
 ## And sayeth the oracle:
-<span id = "randomIteem">"---"</span>
+<span id = randomIteem>"---"</span>
