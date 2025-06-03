@@ -35,7 +35,8 @@ layout: default
           " ",
           ];
   
-          var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+          var randomIteem = myArray[Math.floor(Math.random()*myArray.length)];
+          document.getElementById("randomIteem").innerHTML=randomItem
          }
     
     </script>
