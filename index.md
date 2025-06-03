@@ -30,7 +30,7 @@ layout: default
           "Literature is an occupation in which you have to keep proving your talent to people who have none. - Jules Renard",
           "War is an ugly thing, but not the ugliest of things. The decayed and degraded state of moral and patriotic feeling which thinks that nothing is worth war is much worse. The person who has nothing for which he is willing to fight, nothing which is more important than his own personal safety, is a miserable creature and has no chance of being free unless made and kept so by the exertions of better men than himself. - John Stuart Mill",
           "When everyone is somebody, then no one's anybody. - W.S. Gilbert",
-          "Children speak in the field what they hear in the house. - Scottish folk saying",
+          ""Children speak in the field what they hear in the house. - Scottish folk saying",
           "You can evade life, but you can not evade Death. - T.S. Elliot",
           " ",
           ];
@@ -40,11 +40,8 @@ layout: default
          }
     
     </script>
-<body>
-<h1>Click the button in order to roll a random quote!</h1><br>
+<h1>Click the button in order to roll a random quote!</h1>
+
 <button onclick="zeFunction()">Roll a quote!</button>
-<br>
-# And the oracle says:
-<span id = "randomItem"></span>
-<footer>Dedicated to my father.</footer>
-</body>
+## And sayeth the oracle:
+"<span id = "randomItem"></span>"
