@@ -9,15 +9,13 @@ layout: default
           var myArray = [
           "This is a quote, apparently. -KVS",
           "I hate sand. - Anakin Skywalker",
-          "As the great Sun Tzu once said, the supreme art of war lies in defeating the enmy without facing him. -MudFlaps", 
+          "As the great Sun Tzu once said, the supreme art of war lies in defeating the enemy without facing him. -MudFlaps", 
           "He travels the fastest who travels alone.- Rudyard Kipling",
           "I think therefore I am. - René Descartes",
           "Knowledge is power. -Francis Bacon",
           "Not all those who wander are lost. - J.R.R. Tolkien",
-          "Not all those who wander are lost. - J.R.R. Tolkien",
           "Nothing is certain except for death and taxes. -Benjamin Franklin",
-          "Nothing is certain except for death and taxes. -Benjamin Franklin",
-          "What doesn't kill us makes us stronger. - Friedrich Nietzche",
+          "What doesn't kill us makes us stronger. - Friedrich Nietzsche",
           "United we stand, divided we fall. - Aesop",
           "Two roads diverged in a wood, and I, I took the one less travelled by, and that has made all the difference. -Robert Frost",
           "Violence is never the answer. It is a question, and the answer is YES! - KVS",
@@ -32,19 +30,18 @@ layout: default
           "Literature is an occupation in which you have to keep proving your talent to people who have none. - Jules Renard",
           "War is an ugly thing, but not the ugliest of things. The decayed and degraded state of moral and patriotic feeling which thinks that nothing is worth war is much worse. The person who has nothing for which he is willing to fight, nothing which is more important than his own personal safety, is a miserable creature and has no chance of being free unless made and kept so by the exertions of better men than himself. - John Stuart Mill",
           "When everyone is somebody, then no one's anybody. - W.S. Gilbert",
-          "Children speak in the field what they hear in the house. - Scottish People",
+          "Children speak in the field what they hear in the house. - Scottish folk saying",
           "You can evade life, but you can not evade Death. - T.S. Elliot",
           " ",
           ];
   
           var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
-
-          alert(randomItem);
          }
     
     </script>
 <body>
 <h1>Click the button in order to roll a random quote!</h1><br>
 <button onclick="zeFunction()">Roll a quote!</button>
+<span id = "randomItem"></span>
 <br>
 <footer>Dedicated to my father.</footer>
