@@ -43,6 +43,8 @@ layout: default
 <body>
 <h1>Click the button in order to roll a random quote!</h1><br>
 <button onclick="zeFunction()">Roll a quote!</button>
-<span id = "randomItem"></span>
 <br>
+# And the oracle says:
+<span id = "randomItem"></span>
 <footer>Dedicated to my father.</footer>
+</body>
